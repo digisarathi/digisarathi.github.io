@@ -40,14 +40,14 @@ layout: default
         <div class="prev">
             {% if page.previous %}
             <a href="{{ page.previous.url | relative_url }}" class="btn"
-                >Previous: {{ page.previous.title }}</a
+                >&langle; {{ page.previous.title }}</a
             >
             {% endif %}
         </div>
         <div class="next">
             {% if page.next %}
             <a href="{{ page.next.url | relative_url }}" class="btn"
-                >Next: {{ page.next.title }}</a
+                >{{ page.next.title }} &rangle;</a
             >
             {% endif %}
         </div>

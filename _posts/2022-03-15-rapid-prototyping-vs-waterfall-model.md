@@ -2,7 +2,7 @@
 id: 1012
 title: 'Rapid Prototyping vs Waterfall model'
 date: '2022-03-15T16:23:14+00:00'
-author: digi_admin_9
+author: digiSarathi
 layout: post
 guid: 'https://digisarathi.com/?p=1012'
 permalink: /rapid-prototyping-vs-waterfall-model/
@@ -25,7 +25,9 @@ A number of software development models exist and any one of which can be adopte
 
 One of the most traditional approaches to software development is the waterfall model, while a more non conventional one is the prototype model. Ideally, any company would like to adopt a software development process that makes optimum use of resources and delivers a bug free end product that perfectly meets users expectations and that too, within the set budget, as well as time frame.
 
-<figure class="wp-block-image size-large">![](https://digisarathi.com/wp-content/uploads/2022/03/undraw_building_websites_i78t-1024x753.png)</figure>### How Does the Waterfall Model Work?
+![](/assets/images/undraw_building_websites_i78t-768x565.png)
+
+### How Does the Waterfall Model Work?
 
 When you look at the waterfall model, the words that come to your mind are ‘Structured’ and ‘Orderly’. The waterfall model is inspired by the ‘assembly line’ philosophy of the hardware industry, wherein every stage is initiated only after the successful conclusion of the previous one. It’s named as ‘Waterfall Model’ because every step is dependent on the earlier one and builds up or ‘flows’ from the work done in the previous phases.
 
@@ -43,7 +45,7 @@ The developer provides the client with a rough prototype application, right afte
 
 According to the suggested changes and overall client report, the prototype is reworked upon and it keeps improving through better designing, until it is transformed into the program which satisfies all client requirements. This is a kind of ‘Interactive’ design, wherein the end user is involved in every stage of development. Every evolving prototype goes through testing and debugging phases, including the final product, before deployment.
 
-### Prototype Model Vs. Waterfall Model
+### Prototype Model vs. Waterfall Model
 
 Now that you have a basic understanding of what the waterfall model and prototype model are all about, let me point out the prime differences in these two software design philosophies. The waterfall model directly delivers the final product to the user and his feedback is only taken in, before the design phase. Conversely, the prototype model creates several rough working applications and involves constant user interaction, until the developers come up with the final application, which satisfies the user.
 

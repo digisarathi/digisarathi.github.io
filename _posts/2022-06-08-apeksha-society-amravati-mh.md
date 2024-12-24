@@ -1,6 +1,6 @@
 ---
 id: 1064
-title: 'Apeksha Society (Amravati, MH)'
+title: 'Apeksha Society'
 date: '2022-06-08T11:29:41+00:00'
 author: digisarathi
 layout: post

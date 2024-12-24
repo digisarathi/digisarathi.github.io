@@ -4,6 +4,8 @@
 
 @use "minima";
 
+$brand-color: #325ea4;
+
 @font-face {
     font-family: "Avenir Next";
     src: url("/assets/fonts/avenir-next-medium.ttf") format("truetype");
@@ -28,6 +30,7 @@
 
 body {
     font-family: "Iosevka Curly", monospace;
+    color: #767676;
 }
 
 h1,
@@ -37,7 +40,99 @@ h4,
 h5,
 h6 {
     font-family: "Avenir Next", sans-serif;
+    color: $brand-color;
 }
+
 p {
     font-family: "Iosevka Curly", monospace;
+}
+
+a,
+a:visited {
+    color: #767676;
+    font-weight: 700;
+}
+
+.post-link {
+    color: #767676;
+    font-weight: 400;
+}
+
+.site-nav .page-link {
+    color: #767676;
+}
+.testimonial {
+    color: #111;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.client {
+    text-align: right;
+}
+.site-header {
+    display: flex;
+    justify-content: center; // Center the logo horizontally
+    align-items: center; // Center the logo vertically
+    padding: 0.5rem; // Add some padding around the header
+
+    .wrapper {
+        max-width: 800px; // Limit the width on larger screens
+        width: 100%; // Allow full width on smaller screens
+        margin: 0 auto; // Center the wrapper
+    }
+
+    .site-logo img {
+        max-width: 25%; // Ensure the image is responsive
+        height: auto; // Maintain aspect ratio
+        width: auto; // Allow width to adjust automatically
+
+        // Optional media queries for specific adjustments
+        @media (max-width: 768px) {
+            max-width: 40%; // Adjust size for tablets and smaller screens
+        }
+
+        @media (max-width: 480px) {
+            max-width: 40%; // Further adjust size for mobile devices
+        }
+    }
+}
+.post-navigation {
+    display: flex; // Use Flexbox for layout
+    justify-content: space-between; // Space out children to occupy full width
+    align-items: center; // Center items vertically
+    padding: 1rem; // Optional padding for spacing
+    border-top: 1px solid $brand-color; // Optional border for visual separation
+
+    .prev {
+        margin-right: auto; // Pushes the previous button to the left
+    }
+
+    .next {
+        margin-left: auto; // Pushes the next button to the right
+    }
+}
+.grid {
+    display: flex; // Use Flexbox for layout
+    flex-wrap: wrap; // Allow items to wrap onto the next line
+    margin: -10px; // Adjust margin for spacing between items
+}
+
+.grid-item {
+    flex: 1 0 calc(20% - 20px); // Each item takes up roughly one-third of the row minus margins
+    margin: 10px; // Space between items
+    background-color: #f8f9fa; // Light background for visibility
+    padding: 15px; // Padding inside each item
+    border-radius: 5px; // Rounded corners
+}
+@media (max-width: 768px) {
+    .grid-item {
+        flex: 1 0 calc(50% - 20px); // Two items per row on medium screens
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-item {
+        flex: 1 0 calc(100% - 20px); // One item per row on small screens
+    }
 }

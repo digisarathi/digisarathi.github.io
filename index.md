@@ -23,7 +23,7 @@ Your website is the foundation upon which your digital marketing and fundraising
 
 #### [Product Consulting](https://digisarathi.com/product-consulting/)
 
- Facilitate the design process of new products and innovate towards newer markets to
+ Facilitate the design &amp; development process of new products and innovate towards newer markets to
  achieve superior customer value.
 
 
@@ -33,9 +33,11 @@ Your website is the foundation upon which your digital marketing and fundraising
 
 ## Clients' Speak
 
+<p class="testimonial">
  “..a comprehensive knowledge of tech issues, cross-cultural sophistication and a fierce
  dedication to his work were all apparent. Much of our network’s success in India can be
- credited to his involvement.”
-<p style="text-align:right">
-    - Daniel Ben Horin, Founder, <a href="https://www.techsoup.org/" target="_blank" rel="noopener noreferrer">TechSoup</a>
+ credited to his involvement.” </p>
+<p style="text-align:right;">
+    - Daniel Ben Horin <br/>
+    Founder, <a href="https://www.techsoup.org/" target="_blank" rel="noopener noreferrer">TechSoup</a>
 </p>

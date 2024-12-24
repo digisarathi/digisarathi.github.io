@@ -1,6 +1,6 @@
 ---
 id: 1045
-title: Awaaz-e-Niswaan
+title: Aawaaz-e-Niswaan
 date: '2022-06-08T10:21:10+00:00'
 author: digisarathi
 layout: post
@@ -74,7 +74,15 @@ digiSarathi overhauled the Niswaan website in a simple manner that conveyed thei
 
 The Instagram feed is automatically reflected on the website’s homepage so the website visitors can get to know the ground activities and programs regularly.
 
- Our (Aawaaz-e-Niswaan)’s website was designed and completed by digiSarathi and has been receiving applauds from different people. It is so eye-appealing and professionally done that it looks great. It works well on mobile devices, we have tried it on android and iPhones and it worked great on both. We love how easy it is to navigate through the pages and digiSarthi is available in a blink of an eye to provide any required support when / if we need it.
- Trustee
- Awaaz-e-Niswaan
+ <p class="testimonial">
+ "Our website was designed and completed by digiSarathi and has been receiving applauds from different people.
+ It is so eye-appealing and professionally done that it looks great. It works well on mobile devices, we have tried it on android and
+ iPhones and it worked great on both. We love how easy it is to navigate through the pages and digiSarthi is available in a blink of an
+ eye to provide any required support when/if we need it."
+ </p>
+ <p class="client">
+     - Trustee, <a href="https://www.niswaan.org/" target="_blank" rel="noopener noreferrer">Aawaaz-e-Niswaan</a>
+ </p>
+
+
  [![](/assets/images/Screenshot_2020-06-25-Aawaaz-e-Niswaan--768x1835.jpg)](http://www.niswaan.org){:target='_blank}
