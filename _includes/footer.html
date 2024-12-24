@@ -3,19 +3,28 @@
 
   <div class="wrapper">
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <p>Drop us an email or call/whatsapp us or come meet us for a coffee!</p>
+
+
+        <p> Registered – 5 Deeplaxmi Apts, Mithaghar Road, Mulund East, Mumbai, India – 400081. </p>
       </div>
+
+      <div class="footer-col footer-col-3">
+          <ul class="contact-list">
+              {%- if site.email -%}
+              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+
+              </li>
+              {%- endif -%}
+              <li>Tel: +91 9022465676</li>
+          </ul>
+        <p> Main – A 603, Satyam Shrey, Bavdhan, Pune, India – 411021. </p>
+
+      </div>
+    </div>
+    <div class="footer-col">
+
     </div>
   </div>
 
