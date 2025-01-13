@@ -27,6 +27,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: digisarathi
 github_username: digisarathi
 
+show_excerpts: true
+excerpt_separator: <!--end_excerpt-->
 # Build settings
 theme: minima
 plugins:
@@ -37,6 +39,7 @@ sass:
 
 include:
   - assets/fonts
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

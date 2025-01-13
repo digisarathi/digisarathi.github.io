@@ -20,10 +20,21 @@
         <div class="trigger">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
+            {%- if my_page.title == "About" or my_page.title == "Insights" or
+            my_page.title == "NGOs" -%}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+
+          <!-- Dropdown Menu Example -->
+                  <div class="dropdown">
+                      <a class="dropbtn">Services</a>
+                      <div class="dropdown-content">
+                          <a href="/websitedesign/">Website, UI & UX</a>
+                          <a href="/softwaredev/">Software Dev</a>
+                          <a href="/techconsulting/">Tech Consulting</a>
+                      </div>
+                  </div>
         </div>
       </nav>
     {%- endif -%}
